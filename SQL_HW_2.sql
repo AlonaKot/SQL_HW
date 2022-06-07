@@ -101,7 +101,7 @@ id serial primary key,
 monthly_salary int not null
 );
 
---4)	Наполнить таблицу salary 15 строками:
+--4)	Наполнить таблицу salary 16 строками:
 
 insert into salary (id, monthly_salary)
 values (default, 1000),
